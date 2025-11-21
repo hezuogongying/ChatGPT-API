@@ -1,9 +1,6 @@
+# ⚠️  定时任务已被禁用以避免不必要的邮件通知
 name: Code Analysis Scanning
-on:
-  schedule:
-    - cron: "0 0 * * *"
-
-jobs:
+on:jobs:
   CodeQL-Build:
     runs-on: ubuntu-latest
     permissions:
